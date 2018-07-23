@@ -1,0 +1,81 @@
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'ＭＳ 明朝';
+  color: #343D55;
+}
+
+html{
+}
+
+body{
+  background-image:repeating-linear-gradient(90deg, #343D55,#343D55 30px,#888 30px, #888 31px);
+}
+
+.header{
+  background-color:HSL(55,43%,95%);
+  padding:10px 20%;
+}
+
+.header .container{
+  padding-left:1em;
+}
+
+h1{
+  font-size: 1.8em;
+  text-decoration:underline;
+}
+
+.header p{
+  font-size: 0.8em;
+  padding-top: 8px;
+}
+
+.main{
+  width:60%;
+  margin:0 auto;
+  margin-top: 30px;
+  padding:10px 5px;
+  background-color:HSL(55,43%,95%) ;
+}
+
+.false-sentence{
+  display: none;
+}
+
+.introduction{
+  background-color: #839AD3;
+  padding: 2em 1em;
+  font-size:1em;
+}
+
+.introduction p{
+    padding-top: 0.5em;
+    color:#fff;
+}
+
+.questions{
+  padding:2% 1em 10% 1em;
+}
+
+.questions p{
+  padding-top:5px;
+}
+
+.questions h2{
+  padding-top:3%;
+  font-size: 1.2em;
+}
+
+.questions span{
+  color: #c90926;
+}
+
+.questions button,.questions input,.questions img{
+  display: none;
+}
+
+.clear h2,.clear span{
+  color:rgb(200,200,200);
+}
